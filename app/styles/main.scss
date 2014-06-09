@@ -114,6 +114,10 @@ body {
     background: url(../images/header-bg.png) repeat-x rgb(97, 192, 231);
     height: 650px;
     width: 100%;
+    @media only screen and (max-width : 400px) {
+            height: 600px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .logo {
@@ -126,6 +130,10 @@ body {
     position: absolute;
     right: 10px;
     margin-top: 40px;
+    @media only screen and (max-width : 400px) {
+            right: 20px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .greeting {
@@ -151,7 +159,7 @@ body {
     text-align: right;
     color: #fff;
     @media only screen and (max-width : 400px) {
-            font-size: 25px;
+            font-size: 15px;
             text-align: center; 
     }
       -webkit-transition: all .5s ease;
@@ -300,6 +308,10 @@ body {
     border: 2px solid rgb(234px, 76px, 137px);
     color: rgb(234px, 76px, 137px);
     width: 200px;
+    @media only screen and (max-width : 400px) {
+            text-align: center;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .device {
