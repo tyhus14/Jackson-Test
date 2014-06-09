@@ -213,7 +213,7 @@ body {
     width: 550px;
     color: rgb(102, 102, 102);
     @media only screen and (max-width : 400px) {
-            width: 300px;
+            width: 100%;
     }
       -webkit-transition: all .5s ease;
 }
@@ -237,6 +237,10 @@ body {
     display: inline-block;
     position: relative;
     margin-top: 25px;
+    @media only screen and (max-width : 400px) {
+            display: none;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .italic-text {
@@ -245,7 +249,7 @@ body {
     display: inline-block;
     font-style: italic;
     @media only screen and (max-width : 400px) {
-            width: 280px;
+            width: 100%;
     }
       -webkit-transition: all .5s ease;
 }
@@ -410,6 +414,7 @@ body {
     margin-right: 25px;
     @media only screen and (max-width : 400px) {
             margin-top: 100px;
+            width: 60%;
     }
       -webkit-transition: all .5s ease;
 }
