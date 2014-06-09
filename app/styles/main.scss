@@ -150,6 +150,10 @@ body {
 .iphone {
     margin-top: 60px;
     margin-left: 60px;
+    @media only screen and (max-width : 400px) {
+            width: 30%;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .button {
@@ -169,6 +173,12 @@ body {
 
 .download-btn-full {
     position: absolute;
+    margin-top: 100px;
+    @media only screen and (max-width : 400px) {
+            margin-top: 30px;
+            right: 20px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .icon {
@@ -183,11 +193,19 @@ body {
     height: 650px;
     width: 100%;
     margin-top: -20px;
+    @media only screen and (max-width : 400px) {
+            height: 550px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .long-header-container {
     width: 550px;
     color: rgb(102, 102, 102);
+    @media only screen and (max-width : 400px) {
+            width: 300px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .content-header {
@@ -196,6 +214,10 @@ body {
     margin-top: 160px;
     font-size: 35px;
     margin-bottom: 35px;
+    @media only screen and (max-width : 400px) {
+            margin-top: 50px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .indent-box {
@@ -212,6 +234,10 @@ body {
     position: relative;
     display: inline-block;
     font-style: italic;
+    @media only screen and (max-width : 400px) {
+            width: 280px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .hello-btn {
@@ -224,6 +250,12 @@ body {
     right: -20px;
     display: inline-block;
     margin-top: -340px;
+    @media only screen and (max-width : 400px) {
+            width: 30%;
+            right: 45px;
+            margin-top: -108px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .section-three {
@@ -241,6 +273,11 @@ body {
     right: 10px;
     margin-top: 100px;
     color: rgb(102, 102, 102);
+    @media only screen and (max-width : 400px) {
+            position: relative;
+            width: 100%;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .dribbble-btn {
@@ -252,31 +289,56 @@ body {
 .device {
     position: absolute;
     left: 10px;
+    @media only screen and (max-width : 400px) {
+            width: 30%;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .imac {
     margin: 278px 0px 0px -30px;
     z-index: 1;
+    @media only screen and (max-width : 400px) {
+            margin: 278px 0px 0px 40px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .ipad-large-small {
     margin: 434px 0px 0px 340px;
     z-index: 2;
+    @media only screen and (max-width : 400px) {
+            margin: 434px 0px 0px 0px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .ipad-mini {
     margin: 505px 0px 0px 520px;
     z-index: 3;
+    @media only screen and (max-width : 400px) {
+            margin: 434px 0px 0px 0px;
+    }
+      -webkit-transition: all .5s ease;
+
 }
 
 .iphone-small {
     margin: 554px 0px 0px 475px;
     z-index: 4;
+    @media only screen and (max-width : 400px) {
+            margin: 434px 0px 0px 0px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .macbook {
     margin: 472px 0px 0px -218px;
     z-index: 4;
+    @media only screen and (max-width : 400px) {
+            margin: 434px 0px 0px 0px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .section-four {
@@ -317,6 +379,10 @@ body {
     background: rgb(244, 244, 244);
     height: 650px;
     width: 100%;
+    @media only screen and (max-width : 400px) {
+            height: 300px;
+    }
+      -webkit-transition: all .5s ease;
 }
 
 .social-container {
@@ -332,6 +398,27 @@ body {
     position: relative;
     margin-top: 250px;
     margin-right: 25px;
+    @media only screen and (max-width : 400px) {
+            margin-top: 100px;
+    }
+      -webkit-transition: all .5s ease;
+}
+
+.email-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.email {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    background: #fff;
+    height: 35px;
 }
 
 
