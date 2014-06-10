@@ -357,6 +357,7 @@ body {
 }
 
 .imac {
+    width: 50%;
     margin: 278px 0px 0px -30px;
     z-index: 1;
     @media only screen and (max-width : 400px) {
@@ -369,6 +370,7 @@ body {
 .ipad-large-small {
     margin: 434px 0px 0px 340px;
     z-index: 2;
+    width: 17%;
     @media only screen and (max-width : 400px) {
             margin: 450px 0px 0px 183px;
             width: 23%;
@@ -379,6 +381,7 @@ body {
 .ipad-mini {
     margin: 505px 0px 0px 520px;
     z-index: 3;
+    width: 12%;
     @media only screen and (max-width : 400px) {
             margin: 464px 0px 0px 249px;
             width: 18%;
@@ -390,6 +393,7 @@ body {
 .iphone-small {
     margin: 554px 0px 0px 475px;
     z-index: 4;
+    width: 7%;
     @media only screen and (max-width : 400px) {
             margin: 485px 0px 0px 225px;
             width: 10%;
@@ -398,6 +402,7 @@ body {
 }
 
 .macbook {
+    width: 44%;
     margin: 472px 0px 0px -218px;
     z-index: 4;
     @media only screen and (max-width : 400px) {
