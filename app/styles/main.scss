@@ -194,7 +194,7 @@ body {
     margin-top: 100px;
     cursor: pointer;
     @media only screen and (max-width : 400px) {
-            margin-top: 175px;
+            margin-top: 130px;
             right: 20px;
     }
     &:hover {
@@ -503,7 +503,6 @@ body {
 .email-container {
     margin-top: 20px;
     width: 100%;
-    margin-left: 25px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -533,7 +532,7 @@ body {
 .copyright {
     line-height: 100px;
     @media only screen and (max-width : 400px) {
-            line-height: 10px;
+            margin-top: 30px;
             font-size: 12px;
     }
 }
