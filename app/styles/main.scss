@@ -318,6 +318,11 @@ body {
     right: 10px;
     margin-top: 100px;
     color: rgb(102, 102, 102);
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        left: 0;
+        margin-top: 50px;
+        margin-bottom: 10px;
+}
     @media only screen and (max-width : 400px) {
             position: relative;
             width: 100%;
