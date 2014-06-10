@@ -499,10 +499,6 @@ body {
       -webkit-transition: all .5s ease;
 }
 
-.social-items {
-    width: 100%;
-    margin-left: 25px;
-}
 
 .email-container {
     margin-top: 20px;
@@ -536,7 +532,10 @@ body {
 
 .copyright {
     line-height: 100px;
-    margin: 0 0 0;
+    @media only screen and (max-width : 400px) {
+            line-height: 10px;
+            font-size: 12px;
+    }
 }
 
 
