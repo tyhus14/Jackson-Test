@@ -92,19 +92,11 @@ body {
     }
 }
 
-/* Fonts */
-
-@font-face {
-  font-family: "BlackJackWebfont";
-  src: url('../fonts/black_jack-webfont.eot');
-  src: url('../fonts/ss-standard.eot?#iefix') format('eot'),
-       url('../fonts/black_jack-webfont.woff') format('woff'),
-       url('../fonts/black_jack-webfont.ttf')  format('truetype'),
-       url('../fonts/black_jack-webfont.svg#BlackJackWebfont') format('svg');
-}
 
 /* Newer Styles */
 
+
+/* First Section - Header */
 .header {
     position: relative;
     display: inline-block;
@@ -208,6 +200,7 @@ body {
     margin-top: -3px;
 }
 
+/* Second Section - Long Header */
 
 .long-header {
     display: inline-block;
@@ -299,6 +292,8 @@ body {
       -webkit-transition: all .5s ease;
 }
 
+/* Third Section - Dribbble */
+
 .section-three {
     display: inline-block;
     position: relative;
@@ -365,6 +360,8 @@ body {
       -webkit-transition: all .5s ease;
 }
 
+/* Devices */
+
 .device {
     position: absolute;
     left: 10px;
@@ -428,6 +425,8 @@ body {
       -webkit-transition: all .5s ease;
 }
 
+/* Fourth Section - Like what you see */
+
 .section-four {
     position: relative;
     display: inline-block;
@@ -464,6 +463,8 @@ body {
     }
     -webkit-transition: all 1s ease;
 }
+
+/* Fifth Section - Social */
 
 .section-five {
     display: inline-block;
@@ -519,6 +520,8 @@ body {
     background: #fff;
     height: 35px;
 }
+
+/* Six Section - Footer */
 
 .foot {
     width: 100%;
