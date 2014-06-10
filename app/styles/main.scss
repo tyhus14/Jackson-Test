@@ -499,10 +499,15 @@ body {
       -webkit-transition: all .5s ease;
 }
 
+.social-items {
+    width: 100%;
+    margin-left: 25px;
+}
+
 .email-container {
     margin-top: 20px;
     width: 100%;
-    margin: 0 auto;
+    margin-left: 25px;
     text-align: center;
     position: relative;
     display: inline-block;
