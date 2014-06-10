@@ -197,10 +197,6 @@ body {
             margin-top: 175px;
             right: 20px;
     }
-    @media only screen and (max-width : 768px) {
-            margin-top: 200px;
-            margin-right: 100px;
-    }
     &:hover {
         background: rgba(242, 242, 242, .4);
     }
@@ -377,10 +373,6 @@ body {
             margin: 370px 0px 0px 70px;
             width: 50%;
     }
-
-    @media only screen and (max-width : 768px) {
-            margin: 282px 0 0 225px;
-    }
       -webkit-transition: all .5s ease;
 }
 
@@ -391,9 +383,6 @@ body {
             margin: 450px 0px 0px 183px;
             width: 23%;
     }
-    @media only screen and (max-width : 768px) {
-            margin: 452px 0 0 440px;
-    }
       -webkit-transition: all .5s ease;
 }
 
@@ -403,9 +392,6 @@ body {
     @media only screen and (max-width : 400px) {
             margin: 464px 0px 0px 249px;
             width: 18%;
-    }
-    @media only screen and (max-width : 768px) {
-            margin: 476px 0 0 559px;
     }
       -webkit-transition: all .5s ease;
 
@@ -418,9 +404,6 @@ body {
             margin: 485px 0px 0px 225px;
             width: 10%;
     }
-    @media only screen and (max-width : 768px) {
-            margin: 554px 0 0 523px;
-    }
       -webkit-transition: all .5s ease;
 }
 
@@ -430,9 +413,6 @@ body {
     @media only screen and (max-width : 400px) {
             margin: 474px 0px 0px -5px;
             width: 45%;
-    }
-    @media only screen and (max-width : 768px) {
-            margin: 421px 0 0 12px;
     }
       -webkit-transition: all .5s ease;
 }
