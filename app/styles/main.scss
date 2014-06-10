@@ -13,7 +13,6 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 /* Space out content a bit */
 body {
-    padding-bottom: 20px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -260,6 +259,7 @@ body {
 
 .italic-text {
     width: 85%;
+    margin-left: 10px;
     position: relative;
     display: inline-block;
     font-style: italic;
@@ -319,7 +319,7 @@ body {
     margin-top: 100px;
     color: rgb(102, 102, 102);
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-        left: 0;
+        left: 20px;
         margin-top: 50px;
         margin-bottom: 10px;
 }
@@ -331,6 +331,15 @@ body {
     }
 
       -webkit-transition: all 1s ease;
+}
+
+.top-p {
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.bottom-p {
+    margin-top: 20px;
 }
 
 .dribbble-btn {
@@ -491,20 +500,42 @@ body {
 }
 
 .email-container {
+    margin-top: 20px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     position: relative;
     display: inline-block;
+    color: rgb(102, 102, 102);
 }
 
 .email {
     position: relative;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
     border: none;
     background: #fff;
     height: 35px;
+}
+
+.newsletter {
+    font-style: italic;
+}
+
+.foot {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.copyright {
+    line-height: 100px;
+    margin: 0 0 0;
 }
 
 
