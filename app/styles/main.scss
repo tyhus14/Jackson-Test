@@ -121,6 +121,7 @@ body {
 .logo {
     display: inline-block;
     position: relative;
+    cursor: pointer;
 }
 
 .nav {
@@ -128,10 +129,8 @@ body {
     position: absolute;
     right: 10px;
     margin-top: 40px;
-    @media only screen and (max-width : 400px) {
-            right: 20px;
-    }
-      -webkit-transition: all .5s ease;
+    cursor: pointer;
+      -webkit-transition: all 1s ease;
 }
 
 .greeting {
@@ -197,7 +196,11 @@ body {
             margin-top: 175px;
             right: 20px;
     }
-      -webkit-transition: all .5s ease;
+      cursor: pointer;
+    &:hover {
+        background: rgba(242, 242, 242, .4);
+    }
+    -webkit-transition: all 1s ease;
 }
 
 .icon {
@@ -264,8 +267,13 @@ body {
 }
 
 .hello-btn {
-    border: 2px solid rgb(20px, 175px, 143px);
-    color: rgb(20px, 175px, 143px);
+    border: 2px solid rgb(20, 175, 143);
+    color: rgb(20, 175, 143);
+    cursor: pointer;
+    &:hover {
+        background: rgba(20, 175, 143, .4);
+    }
+    -webkit-transition: all 1s ease;
 }
 
 .ipad {
@@ -309,14 +317,20 @@ body {
 }
 
 .dribbble-btn {
-    border: 2px solid rgb(234px, 76px, 137px);
-    color: rgb(234px, 76px, 137px);
+    border: 2px solid rgb(234, 76, 137);
+    color: rgb(234, 76, 137);
     width: 200px;
+    cursor: pointer;
     @media only screen and (max-width : 400px) {
             text-align: center;
             right: -10px;
     }
-      -webkit-transition: all .5s ease;
+   
+    &:hover {
+        background: rgba(234, 76, 137, .3);
+    }
+    -webkit-transition: all 1s ease;
+     
 }
 
 .center-dribble-btn {
@@ -414,6 +428,11 @@ body {
     border: 2px solid #fff;
     width: 200px;
     margin-top: 20px;
+    cursor: pointer;
+    &:hover {
+        background: rgba(242, 242, 242, .5);
+    }
+    -webkit-transition: all 1s ease;
 }
 
 .section-five {
@@ -464,6 +483,14 @@ body {
     border: none;
     background: #fff;
     height: 35px;
+}
+
+
+/* Animation for Devices */ 
+
+.device-animation-css:hover {
+    -webkit-transform: rotate(20deg);
+    -webkit-transition: all 1s ease;
 }
 
 
