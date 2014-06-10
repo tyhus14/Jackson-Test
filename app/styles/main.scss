@@ -274,9 +274,7 @@ body {
     border: 2px solid rgb(20, 175, 143);
     color: rgb(20, 175, 143);
     cursor: pointer;
-    @media only screen and (max-width : 768px) {
-            margin-top: 115px;
-    }
+   
     &:hover {
         background: rgba(20, 175, 143, .4);
     }
@@ -294,11 +292,6 @@ body {
             margin-top: -150px;
     }
 
-    @media only screen and (max-width : 768px) {
-            width: 50%;
-            margin-top: -100px;
-            right: 50px;
-    }
       -webkit-transition: all .5s ease;
 }
 
